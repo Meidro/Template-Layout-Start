@@ -106,14 +106,13 @@ address {
    font-style: normal;
 }
 
-/* Form */
-
 input,
 textarea,
 button,
 select {
    font-family: inherit;
    font-size: inherit;
+   font-weight: inherit;
    color: inherit;
    line-height: inherit;
    background-color: transparent;
