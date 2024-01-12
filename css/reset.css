@@ -261,6 +261,16 @@ summary {
    display: none;
 }
 
+select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+
+select::-ms-expand {
+   display: none;
+}
+
 .wrapper {
    width: 100%;
    min-height: 100%;
